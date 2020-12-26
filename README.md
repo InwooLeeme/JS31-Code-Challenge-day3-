@@ -5,5 +5,5 @@ Update CSS Variables with JS.
 # To Do
 
 - [x] Complete html form.
-- [ ] Styling.
+- [x] Styling.
 - [ ] Complete Vanilla JavaScript Function.

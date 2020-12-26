@@ -9,15 +9,22 @@ function handleSpace(){
    const spaceValue = parseInt(spaceBar.value);
    imgBackground.style.padding = `${spaceValue}px`;
 }
+
 function handleColor(){
     const currentColor = selectColor.value;
     imgBackground.style.backgroundColor = currentColor;
     jsTitle.style.color = currentColor;
 }
 
+function handleBlur(){
+    const currentBlur = parseInt(blurBar.value);
+    picture.style.filter = "blur("+currentBlur+"px)";
+}
+
 function init(){
     spaceBar.addEventListener('input',handleSpace);
     selectColor.addEventListener('input',handleColor);
+    blurBar.addEventListener('input',handleBlur);
 }
 
 init();

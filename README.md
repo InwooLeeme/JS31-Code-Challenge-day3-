@@ -6,10 +6,10 @@ Update CSS Variables with JS.
 
 - [x] Complete html form.
 - [x] Styling.
-- [ ] Complete Vanilla JavaScript Function.
+- [x] Complete Vanilla JavaScript Function.
 
 ## Vanilla JavaScript Function.
 
 - [x] Spacing in image.
-- [ ] Change the blur in image.
+- [x] Change the blur in image.
 - [x] Change the color

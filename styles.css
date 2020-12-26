@@ -35,5 +35,4 @@ main {
 .container img {
   width: 400px;
   height: 400px;
-  filter: blur(10px);
 }

@@ -26,11 +26,11 @@ main {
   margin: 10px 0;
 }
 
-/* .container .pic__container {
-  width: 420px;
-  height: 420px;
-  border: 1px solid #ffffff;
-} */
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .container img {
   width: 400px;

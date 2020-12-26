@@ -12,4 +12,4 @@ Update CSS Variables with JS.
 
 - [x] Spacing in image.
 - [ ] Change the blur in image.
-- [ ] Change the color
+- [x] Change the color

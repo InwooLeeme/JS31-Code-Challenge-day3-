@@ -2,15 +2,22 @@ const jsTitle = document.querySelector('.container > h1 > span');
 const spaceBar = document.querySelector('.spacing > input');
 const blurBar = document.querySelector('.blur > input');
 const picture = document.querySelector('img');
+const selectColor = document.querySelector('.base__color > input');
+const imgBackground = document.querySelector('.imgContainer');
 
 function handleSpace(){
-    const currentSpace = spaceBar.value;
-    console.log(currentSpace);
-    picture.style.padding = `${currentSpace}px`;
+   const spaceValue = parseInt(spaceBar.value);
+   imgBackground.style.padding = `${spaceValue}px`;
+}
+function handleColor(){
+    const currentColor = selectColor.value;
+    imgBackground.style.backgroundColor = currentColor;
+    jsTitle.style.color = currentColor;
 }
 
 function init(){
     spaceBar.addEventListener('input',handleSpace);
+    selectColor.addEventListener('input',handleColor);
 }
 
 init();
